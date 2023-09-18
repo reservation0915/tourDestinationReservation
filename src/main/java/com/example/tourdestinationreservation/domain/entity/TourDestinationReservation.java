@@ -19,4 +19,6 @@ public class TourDestinationReservation {
     private String userName;
     private String userPhoneNumber;
     private Integer payment;
+    private String reservationTime;
+    private Integer reservationNumberOfPeople;
 }

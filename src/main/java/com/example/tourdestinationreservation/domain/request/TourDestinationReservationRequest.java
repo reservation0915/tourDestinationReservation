@@ -14,6 +14,8 @@ public class TourDestinationReservationRequest {
     private String userName;
     private String userPhoneNumber;
     private Integer payment;
+    private String reservationTime;
+    private Integer reservationNumberOfPeople;
     public TourDestinationReservation toEntity()
     {
         return TourDestinationReservation
@@ -23,6 +25,8 @@ public class TourDestinationReservationRequest {
                 .userName(userName)
                 .userPhoneNumber(userPhoneNumber)
                 .userId(userId)
+                .reservationTime(reservationTime)
+                .reservationNumberOfPeople(reservationNumberOfPeople)
                 .build();
     }
 }
